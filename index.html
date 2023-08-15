@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Virtual</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/file.css"/>
+</head>
+
+<body>
+
+    <div class="teclado">
+        <div class="oitava" o1>
+          <div class="branca" id="c-bass-key" c></div>
+          <div class="preta" id="cs-bass-key" cs></div>
+          <div class="branca" id="d-bass-key" d></div>
+          <div class="preta" id="ds-bass-key" ds></div>
+          <div class="branca" id="e-bass-key" e></div>
+          <div class="branca" id="f-bass-key" f></div>
+          <div class="preta" id="fs-bass-key" fs></div>
+          <div class="branca" id="g-bass-key" g></div>
+          <div class="preta" id="gs-bass-key" gs></div>
+          <div class="branca" id="a-medium-key" a></div>
+          <div class="preta" id="as-medium-key" as></div>
+          <div class="branca" id="b-medium-key" b></div>
+        </div>
+        
+         <div class="oitava" o2>
+          <div class="branca" id="c-medium-key" c></div>
+          <div class="preta" id="cs-medium-key" cs></div>
+          <div class="branca" id="d-medium-key" d></div>
+          <div class="preta" id="ds-medium-key" ds></div>
+          <div class="branca" id="e-medium-key" e></div>
+          <div class="branca" id="f-medium-key" f></div>
+          <div class="preta" id="fs-medium-key" fs></div>
+          <div class="branca" id="g-medium-key" g></div>
+          <div class="preta" id="gs-medium-key" gs></div>
+          <div class="branca" id="a-medium-treble-key" a></div>
+          <div class="preta" id="as-treble-key" as></div>
+          <div class="branca" id="b-medium-treble-key" b></div>
+        </div>
+        
+        <div class="oitava" o3>
+          <div class="branca" id="c-medium-treble-key" c></div>
+          <div class="preta" id="cs-treble-key" cs></div>
+          <div class="branca" id="d-medium-treble-key" d></div>
+          <div class="preta" id="ds-treble-key" ds></div>
+          <div class="branca" id="e-medium-treble-key" e></div>
+          <div class="branca" id="f-medium-treble-key" f></div>
+          <div class="preta" id="fs-treble-key" fs></div>
+          <div class="branca" id="g-medium-treble-key" g></div>
+          <div class="preta" id="gs-treble-key" gs></div>
+          <div class="branca" id="a-treble-key" a></div>
+          <div class="preta" id="as-treble-tiny-key" as></div>
+          <div class="branca" id="b-treble-key" b></div>
+        </div>
+        
+         <div class="oitava" o4>
+          <div class="branca" id="c-treble-key" c></div>
+          <div class="preta" id="cs-treble-tiny-key" cs></div>
+          <div class="branca" id="d-treble-key" d></div>
+          <div class="preta" id="ds-treble-tiny-key" ds></div>
+          <div class="branca" id="e-treble-key" e></div>
+          <div class="branca" id="f-treble-key" f></div>
+          <div class="preta" id="fs-treble-tiny-key" fs></div>
+          <div class="branca" id="g-treble-key" g></div>
+          <div class="preta" id="gs-treble-tiny-key" gs></div>
+          <div class="branca" id="a-treble-tiny-key" a></div>
+          <div class="preta" id="as-treble-tiny-tiny-key" as></div>
+          <div class="branca" id="b-treble-tiny-key" b></div>
+        </div>
+      </div>
+
+    <audio preload="auto" id="c-bass" src="./notes/white-keys/bass/C-note-grave-piano.mp3">
+    <audio preload="auto" id="d-bass" src="./notes/white-keys/bass/D-bass_2.mp3">
+    <audio preload="auto" id="e-bass" src="./notes/white-keys/bass/E-bass.mp3">
+    <audio preload="auto" id="f-bass" src="./notes/white-keys/bass/F_bass.mp3">
+    <audio preload="auto" id="g-bass" src="./notes/white-keys/bass/G_bass.mp3">
+        
+    <audio preload="auto" id="a-medium" src="./notes/white-keys/medium/A_medium.mp3">
+    <audio preload="auto" id="b-medium" src="./notes/white-keys/medium/B_medium.mp3">
+    <audio preload="auto" id="c-medium" src="./notes/white-keys/medium/C_medium.mp3">
+    <audio preload="auto" id="d-medium" src="./notes/white-keys/medium/D_medium.mp3">
+    <audio preload="auto" id="e-medium" src="./notes/white-keys/medium/E_medium.mp3">
+    <audio preload="auto" id="f-medium" src="./notes/white-keys/medium/F_medium.mp3">
+    <audio preload="auto" id="g-medium" src="./notes/white-keys/medium/G_medium.mp3">            
+    
+    <audio preload="auto" id="a-medium-treble" src="./notes/white-keys/medium-treble/A_medium-treble.mp3">
+    <audio preload="auto" id="b-medium-treble" src="./notes/white-keys/medium-treble/B_medium-treble.mp3">
+    <audio preload="auto" id="c-medium-treble" src="./notes/white-keys/medium-treble/C_medium-treble.mp3">
+    <audio preload="auto" id="d-medium-treble" src="./notes/white-keys/medium-treble/D_medium-treble.mp3">
+    <audio preload="auto" id="e-medium-treble" src="./notes/white-keys/medium-treble/E_medium-treble.mp3">
+    <audio preload="auto" id="f-medium-treble" src="./notes/white-keys/medium-treble/F_medium-treble.mp3">
+    <audio preload="auto" id="g-medium-treble" src="./notes/white-keys/medium-treble/G_medium-treble.mp3">            
+            
+
+    <audio preload="auto" id="a-treble" src="./notes/white-keys/treble/A_treble.mp3">
+    <audio preload="auto" id="b-treble" src="./notes/white-keys/treble/B_treble.mp3">
+    <audio preload="auto" id="c-treble" src="./notes/white-keys/treble/C_treble.mp3">
+    <audio preload="auto" id="d-treble" src="./notes/white-keys/treble/D_treble.mp3">
+    <audio preload="auto" id="e-treble" src="./notes/white-keys/treble/E_treble.mp3">
+    <audio preload="auto" id="f-treble" src="./notes/white-keys/treble/F_treble.mp3">
+    <audio preload="auto" id="g-treble" src="./notes/white-keys/treble/G-treble.mp3">          
+        
+    <audio preload="auto" id="a-treble-tiny" src="./notes/white-keys/treble-tiny/A_treble-tiny.mp3">
+    <audio preload="auto" id="b-treble-tiny" src="./notes/white-keys/treble-tiny/B_treble-tiny.mp3">            
+
+
+
+<!--Black Keys-->
+
+<audio preload="auto" id="cs-bass" src="./notes/black-keys/bass/c-sharp-bass.mp3">            
+<audio preload="auto" id="ds-bass" src="./notes/black-keys/bass/d-sharp-bass.mp3">   
+<audio preload="auto" id="fs-bass" src="./notes/black-keys/bass/f-sharp-bass.mp3">   
+<audio preload="auto" id="gs-bass" src="./notes/black-keys/bass/g-sharp-bass.mp3">   
+
+<audio preload="auto" id="as-medium" src="./notes/black-keys/medium/a-sharp-medium.mp3">   
+<audio preload="auto" id="cs-medium" src="./notes/black-keys/medium/c-sharp-medium.mp3">  
+<audio preload="auto" id="ds-medium" src="./notes/black-keys/medium/d-sharp-medium.mp3">  
+<audio preload="auto" id="fs-medium" src="./notes/black-keys/medium/f-sharp-medium.mp3">  
+<audio preload="auto" id="gs-medium" src="./notes/black-keys/medium/g-sharp-medium.mp3"> 
+
+<audio preload="auto" id="as-treble" src="./notes/black-keys/treble/a-sharp-treble.mp3">
+<audio preload="auto" id="cs-treble" src="./notes/black-keys/treble/c-sharp-treble.mp3"> 
+<audio preload="auto" id="ds-treble" src="./notes/black-keys/treble/d-sharp-treble.mp3"> 
+<audio preload="auto" id="fs-treble" src="./notes/black-keys/treble/f-sharp-treble.mp3"> 
+<audio preload="auto" id="gs-treble" src="./notes/black-keys/treble/g-sharp-treble.mp3"> 
+
+<audio preload="auto" id="as-treble-tiny" src="./notes/black-keys/treble-tiny/a-sharp-treble-tiny.mp3"> 
+<audio preload="auto" id="cs-treble-tiny" src="./notes/black-keys/treble-tiny/c-sharp-treble-tiny.mp3"> 
+<audio preload="auto" id="ds-treble-tiny" src="./notes/black-keys/treble-tiny/d-sharp-treble-tiny.mp3"> 
+<audio preload="auto" id="fs-treble-tiny" src="./notes/black-keys/treble-tiny/f-sharp-treble-tiny.mp3"> 
+<audio preload="auto" id="gs-treble-tiny" src="./notes/black-keys/treble-tiny/g-sharp-treble-tiny.mp3"> 
+
+<audio preload="auto" id="as-treble-tiny-tiny" src="./notes/black-keys/treble-tiny-ttiny/a-sharp-tiny-tiny-treble.mp3"> 
+
+
+<script src="./JS/file.js"></script>
+</body>
+</html>
+
+

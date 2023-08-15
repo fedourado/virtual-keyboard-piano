@@ -1,0 +1,50 @@
+body {
+    background-color: #555;
+    box-sizing: border-box
+}
+  
+.teclado {
+    display: flex;
+
+}
+  
+.oitava {
+    display: flex;
+    position: relative;
+}
+  
+.branca {
+    background-color: #fff;
+    width: 50px;
+    height: 470px;
+    border-radius: 10px;
+    border: 1px solid #070707;
+}
+  
+.preta {
+    position: absolute;
+    background-color: #131313 ;
+    border-bottom: 8px solid #000;
+    width: 30px;
+    height: 255px;
+}
+  
+[cs] {
+     left: 37px;
+}
+  
+[ds] {
+    left: 89px;
+}
+  
+[fs] {
+    left: 193px;
+}
+  
+[gs] {
+    left: 245px;
+}
+  
+[as] {
+    left: 297px;
+}
